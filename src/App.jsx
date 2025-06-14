@@ -4,6 +4,7 @@ import RegistrationForm from "./routes/RegistrationForm";
 import LoginForm from "./components/LoginForm ";
 import Header from "./components/Header";
 import ForgotPass from "./routes/ForgotPass";
+import InstructionPage from "./routes/InstructionPage";
 
 function App() {
   return (
@@ -16,6 +17,15 @@ function App() {
               <Navbar />
               <Header/>
               <LoginForm />
+            </>
+          }
+        />
+        <Route
+          path="/InstructionPage"
+          element={
+            <>
+              <Navbar />
+              <InstructionPage />
             </>
           }
         />
