@@ -64,13 +64,13 @@ const LoginForm = () => {
         </div>
 
         <div className="flex space-x-4">
-          <Link to ="/" className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2">
+          <Link to ="/ForgotPass" className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2">
             Forgot Password
           </Link>
           <Link to="/RegistrationForm" className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2">
             New Candidate for Exam
           </Link>
-          <Link to="/" className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2">
+          <Link to="/RegistrationForm" className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2">
             New Candidate for Workshop
           </Link>
         </div>

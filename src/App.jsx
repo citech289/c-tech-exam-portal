@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import RegistrationForm from "./routes/RegistrationForm";
 import LoginForm from "./components/LoginForm ";
+import Header from "./components/Header";
+import ForgotPass from "./routes/ForgotPass";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
           element={
             <>
               <Navbar />
+              <Header/>
               <LoginForm />
             </>
           }
@@ -22,6 +25,15 @@ function App() {
             <>
               <Navbar />
               <RegistrationForm />
+            </>
+          }
+        />
+        <Route
+          path="/ForgotPass"
+          element={
+            <>
+              <Navbar />
+              <ForgotPass />
             </>
           }
         />
