@@ -1,10 +1,9 @@
-import React from 'react'
 
 const InstructionPage = () => {
  return (
     <div className="h-screen bg-white text-gray-900 p-4 md:p-8 overflow-hidden">
       <div className="flex h-full gap-10">
-        {/* Sticky Left Column (40%) */}
+        {/* .Sticky Left Column (40%) */}
         <div className="w-[40%] space-y-6 sticky top-0 self-start h-fit">
           <img
         //    src="/src/assets/logo.png"

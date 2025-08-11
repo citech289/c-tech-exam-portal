@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const LoginForm = () => {
@@ -55,7 +55,7 @@ const LoginForm = () => {
           >
             Submit
           </Link>
-          {/* <button
+          {/* .<button
             type="reset"
             className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2 "
           >

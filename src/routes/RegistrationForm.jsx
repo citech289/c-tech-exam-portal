@@ -1,4 +1,3 @@
-import React from "react";
 
 const RegistrationForm = () => {
   return (
@@ -118,7 +117,7 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        {/* <div>
+        {/* .<div>
           <label className="block ">
             * College Name:
             <select className="w-full border rounded px-3 py-1 mt-1" required>

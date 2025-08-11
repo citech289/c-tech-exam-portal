@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const ForgotPass = () => {
@@ -22,7 +21,7 @@ const ForgotPass = () => {
         </div>
 
         <div className="flex space-x-4">
-          {/* <button
+          {/*. <button
             type="submit"
             className="bg-[#2e5c84] cursor-pointer text-white rounded-md hover:bg-gradient-to-r from-[#2e5c84] to-orange-500 transition font-medium px-6 py-2"
           >

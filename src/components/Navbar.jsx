@@ -1,12 +1,11 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="text-sm text-white w-full">
       <div className="text-center font-medium py-2 bg-gradient-to-r from-[#2e5c84] to-orange-500 transition">
-        {/* <p>
-          Exclusive Price Drop! Hurry,{" "}
+        {/*. <p>
+          Exclusive Price Drop!! Hurry,{" "}
           <span className="underline underline-offset-2">Offer Ends Soon!</span>
         </p> */}
         Ci-STEM Information Technology Services Private Limited
